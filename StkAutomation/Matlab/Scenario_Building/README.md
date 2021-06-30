@@ -4,11 +4,15 @@
 
 This script attaches to an open instance of STK12 and imports facilities with position data from an Excel spreadsheet. Units are assumed to be degrees and meters with a header row in the Excel file for ID, LAT, LON, ALT. There is an example facility spreadsheet in the ImportFacilities folder.
 
-ex. `ImportFacilities('GroundSites.xlsx')`
+Example:
+
+```matlab
+ImportFacilities('GroundSites.xlsx')
+```
 
 ### Dependencies
 
-* Licenses: Free, Integration
+* Licenses: Free, [Integration](https://p.widencdn.net/wums3s/Integration-Product-Specsheet)
 * Other Scripts: N/A
 * Scenario: N/A
 
@@ -20,7 +24,7 @@ This folder contains four scripts that demonstrate use cases for the realtime pr
 
 ### Dependencies
 
-* Licenses: Free, Integration
+* Licenses: Free, [Integration](https://p.widencdn.net/wums3s/Integration-Product-Specsheet)
 * Other Scripts: N/A
 * Scenario: N/A
 
@@ -32,7 +36,7 @@ This script creates a sweeping/raster scan over a list of area targets. The scan
 
 ### Dependencies
 
-* Licenses: Free, Integration, SOLIS
+* Licenses: Free, [Integration](https://p.widencdn.net/wums3s/Integration-Product-Specsheet), [SOLIS](https://p.widencdn.net/oxspcl/SOLIS-Product-Specsheet)
 * Other Scripts: N/A
 * Scenario: N/A
 
@@ -42,10 +46,9 @@ This script creates a sweeping/raster scan over a list of area targets. The scan
 
 When an Astrogator satellite maneuvers by default the manuever will adjust the attitude to align with the thrust direction, but it will not slew. This script allows the satellite to slew into and out of the maneuver. The user specifies the name of the satellite, the pointing during thrusting intervals, the pointing outside of thrusting intervals, and the slew length. These inputs are set on lines 8-24.
 
-
 ### Dependencies
 
-* Licenses: Free, Integration, Astrogator, Analysis Workbench
+* Licenses: Free, [Integration](https://p.widencdn.net/wums3s/Integration-Product-Specsheet), [Astrogator](https://p.widencdn.net/1ozbgh/Astrogator-Product-Specsheet), [Analysis Workbench](https://p.widencdn.net/cdz693/Analysis-Workbench-Product-Specsheet)
 * Other Scripts: N/A
 * Scenario: N/A
 
@@ -53,11 +56,11 @@ When an Astrogator satellite maneuvers by default the manuever will adjust the a
 
 ## [FigureEight.m](FigureEight.m)
 
-This script creates waypoints for any GreatArc propagated STK vehicle in the shape of a figure eight. The user specifies the name of the object, the major and minor axes of the figure eight, the center latitude and longitude, and a few other basic parameters on lines 10-19. 
+This script creates waypoints for any GreatArc propagated STK vehicle in the shape of a figure eight. The user specifies the name of the object, the major and minor axes of the figure eight, the center latitude and longitude, and a few other basic parameters on lines 10-19.
 
 ### Dependencies
 
-* Licenses: Free, Integration
+* Licenses: Free, [Integration](https://p.widencdn.net/wums3s/Integration-Product-Specsheet)
 * Other Scripts: N/A
 * Scenario: N/A
 
@@ -65,11 +68,11 @@ This script creates waypoints for any GreatArc propagated STK vehicle in the sha
 
 ## [FigureEightCircle.m](FigureEightCircle.m)
 
-This script creates an ephemeris file for any GreatArc propagated STK vehicle in the shape of a figure eight constructed of two circles. The user specifies the name of the object, the radius of the two circles, the center latitude and longitude, and a few other basic parameters on lines 10-19. 
+This script creates an ephemeris file for any GreatArc propagated STK vehicle in the shape of a figure eight constructed of two circles. The user specifies the name of the object, the radius of the two circles, the center latitude and longitude, and a few other basic parameters on lines 10-19.
 
 ### Dependencies
 
-* Licenses: Free, Integration
+* Licenses: Free, [Integration](https://p.widencdn.net/wums3s/Integration-Product-Specsheet)
 * Other Scripts: N/A
 * Scenario: N/A
 
@@ -81,7 +84,7 @@ This function creates an elliptical sensor pattern and saves it off as a .patter
 
 ### Dependencies
 
-* Licenses: Free, Integration, Pro
+* Licenses: Free, [Integration](https://p.widencdn.net/wums3s/Integration-Product-Specsheet), [Pro](https://p.widencdn.net/3ezpjj/STK-Pro-Product-Specsheet)
 * Other Scripts: N/A
 * Scenario: N/A
 
@@ -93,7 +96,7 @@ This is a simple script to propagate a missile with the basic ballistic propagat
 
 ### Dependencies
 
-* Licenses: Free, Integration
+* Licenses: Free, [Integration](https://p.widencdn.net/wums3s/Integration-Product-Specsheet)
 * Other Scripts: N/A
 * Scenario: N/A
 
@@ -107,7 +110,7 @@ This sample is used to generate a simple sequence for communicating with a satel
 
 ### Dependencies
 
-* Licenses: Free, Integration, SOLIS
+* Licenses: Free, [Integration](https://p.widencdn.net/wums3s/Integration-Product-Specsheet), [SOLIS](https://p.widencdn.net/oxspcl/SOLIS-Product-Specsheet)
 * Other Scripts: N/A
 * Scenario: N/A
 
